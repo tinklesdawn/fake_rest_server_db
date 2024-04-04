@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "id":0,
+      "name":"strawberry",
+      "base_price":230},
+    },
+    {
+      "id":1,
+      "name":"cherry",
+      "base_price":170},
+    },
+    {
+      "id":2,
+      "name":"mushroom",
+      "base_price":320},
+    },
+    {
+      "id":3,
+      "name":"blueberry",
+      "base_price":240},
+    },
+    {
+      "id":4,
+      "name":"corn",
+      "base_price":190
+    }
+  ]
+}
