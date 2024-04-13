@@ -25,5 +25,208 @@
       "name":"corn",
       "base_price":190
     }
-  ]
+  ],
+  
+  "positions": [
+    {
+      "id": 1,
+      "product": {
+        "id": 1,
+        "name": "cherry",
+        "base_price": 170
+      },
+    "amount": 10,
+    "price": 200,
+    "isComplete": false
+    },
+    {
+      "id": 2,
+      "product": {
+        "id":0,
+        "name":"strawberry",
+        "base_price":230
+      },
+      "amount": 10,
+      "price": 220,
+      "isComplete": false
+    },
+    {
+      "id": 3,
+        "product": {
+          "id":4,
+          "name": "corn",
+          "base_price": 190
+        },
+      "amount": 10,
+      "price": 220,
+      "isComplete": false
+    }
+  ],
+  
+  "orders": [
+    {
+      "id": 1,
+      "address": "Транспортная, 93а",
+      "positions": [
+        {
+          "id": 1,
+          "product": {
+            "id": 1,
+            "name": "cherry",
+            "base_price": 170
+          },
+        "amount": 10,
+        "price": 200,
+        "isComplete": false
+        },
+        {
+          "id": 2,
+          "product": {
+            "id":0,
+            "name":"strawberry",
+            "base_price":230
+          },
+          "amount": 10,
+          "price": 220,
+          "isComplete": false
+        },
+        {
+          "id": 3,
+            "product": {
+              "id":4,
+              "name": "corn",
+              "base_price": 190
+            },
+          "amount": 10,
+          "price": 220,
+          "isComplete": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "address": "Колхозный, 18",
+      "positions": [
+        {
+          "id": 7,
+          "product": {
+            "id": 1,
+            "name": "cherry",
+            "base_price": 170
+          },
+        "amount": 10,
+        "price": 200,
+        "isComplete": false
+        },
+        {
+          "id": 8,
+          "product": {
+            "id":0,
+            "name":"strawberry",
+            "base_price":230
+          },
+          "amount": 10,
+          "price": 220,
+          "isComplete": false
+        },
+        {
+          "id": 9,
+            "product": {
+              "id":4,
+              "name": "corn",
+              "base_price": 190
+            },
+          "amount": 10,
+          "price": 220,
+          "isComplete": false
+        }
+      ]
+    }
+  ],
+  
+  "actualHaul": {
+    "id": 1,
+    "date": "2024-05-20",
+    "isComplete": false,
+    "orders": [
+      {
+        "id": 1,
+        "address": "Транспортная, 93а",
+        "positions": [
+          {
+            "id": 1,
+            "product": {
+              "id": 1,
+              "name": "cherry",
+              "base_price": 170
+            },
+          "amount": 10,
+          "price": 200,
+          "isComplete": false
+          },
+          {
+            "id": 2,
+            "product": {
+              "id":0,
+              "name":"strawberry",
+              "base_price":230
+            },
+            "amount": 10,
+            "price": 220,
+            "isComplete": false
+          },
+          {
+            "id": 3,
+              "product": {
+                "id":4,
+                "name": "corn",
+                "base_price": 190
+              },
+            "amount": 10,
+            "price": 220,
+            "isComplete": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "address": "Колхозный, 18",
+        "positions": [
+          {
+            "id": 7,
+            "product": {
+              "id": 1,
+              "name": "cherry",
+              "base_price": 170
+            },
+          "amount": 10,
+          "price": 200,
+          "isComplete": false
+          },
+          {
+            "id": 8,
+            "product": {
+              "id":0,
+              "name":"strawberry",
+              "base_price":230
+            },
+            "amount": 10,
+            "price": 220,
+            "isComplete": false
+          },
+          {
+            "id": 9,
+              "product": {
+                "id":4,
+                "name": "corn",
+                "base_price": 190
+              },
+            "amount": 10,
+            "price": 220,
+            "isComplete": false
+          }
+        ]
+      }
+    ]
+  }
 }
