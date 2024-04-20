@@ -1,5 +1,4 @@
 {
-  "dick": {
-    "id": 1
-  }
+  "actual_haul": {"id":0,"date":"2024-04-20 16:52:02.400819","orders":[{"id":0,"address":"Транспортная 93","positions":[{"id":0,"product":{"id":10,"name":"Брокколи","base_price":230},"amount":40,"price":230,"isComplete":false},{"id":1,"product":{"id":0,"name":"Вишня","base_price":270},"amount":190,"price":270,"isComplete":false}]},{"id":1,"address":"Ленина 7","positions":[{"id":1,"product":{"id":7,"name":"Малина","base_price":400},"amount":130,"price":400,"isComplete":false},{"id":2,"product":{"id":4,"name":"Клюква","base_price":260},"amount":50,"price":260,"isComplete":false},{"id":3,"product":{"id":0,"name":"Вишня","base_price":270},"amount":180,"price":270,"isComplete":false}]},{"id":2,"address":"Куйбышева 2","positions":[{"id":2,"product":{"id":10,"name":"Брокколи","base_price":230},"amount":20,"price":230,"isComplete":false}]}],"isComplete":false},
+  
 }
