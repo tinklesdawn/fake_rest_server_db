@@ -1,4 +1,3 @@
 {
   
-  "products": [{"id":0,"name":"Вишня","base_price":320},{"id":1,"name":"Манго","base_price":230},{"id":2,"name":"Шампиньоны","base_price":280},{"id":3,"name":"Белый гриб","base_price":280},{"id":4,"name":"Клюква","base_price":290},{"id":5,"name":"Ежевика","base_price":400},{"id":6,"name":"Брусника","base_price":370},{"id":7,"name":"Малина","base_price":170},{"id":8,"name":"Кукуруза","base_price":220},{"id":9,"name":"Фасоль","base_price":220},{"id":10,"name":"Брокколи","base_price":230}]
 }
